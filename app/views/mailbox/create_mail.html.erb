@@ -1,0 +1,30 @@
+<h1>Mailbox#create_mail</h1>
+<p>Find me in app/views/mailbox/create_mail.html.erb</p>
+
+<form action = "/k" method = "POST">
+    <div class="container">
+      <div class="form-group">
+        <label for="exampleInputEmail1">보내는 사람 email</label>
+        <input type="email" class="form-control" name="from_email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      
+      
+      
+      <div class="form-group">
+        <label for="exampleInputEmail1">받는 사람 email</label>
+        <input type="email" class="form-control" name="to_email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      
+      <div class="form-group">
+        <label for="comment">title:</label>
+        <input type="textarea" class="form-control" name="title" rows="1" id="exampleInputPassword1" placeholder="title">
+      </div>
+      
+      <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea type="textarea" class="form-control" name="comment" rows="5" id="exampleInputPassword1" placeholder="comment"></textarea>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>

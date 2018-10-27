@@ -1,0 +1,22 @@
+<h1>Mailbox#send_mail</h1>
+<p>Find me in app/views/mailbox/send_mail.html.erb</p>
+
+
+<div class="container">
+    <div class="form-group">
+        <label for="exampleInputEmail1">보내는 사람 email</label>
+        <span class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><%=@from_email%></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">받는 사람 email</label>
+        <span class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><%=@to_email%></span>
+    </div>
+    <div class="form-group">
+        <label for="comment">title:</label>
+        <span class="form-control" name="title" rows="1" id="exampleInputPassword1" placeholder="title"><%=@title%></span>
+    </div>
+    <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea class="form-control" id="exampleInputPassword1" row="5" placeholder="comment"><%=@comment%></textarea>
+    </div>
+</div>
